@@ -5,7 +5,7 @@ const PORT = process.env.PORT ?? 8080
 
 app.get('/', (req, res) => {
     return res.json({
-        message: 'Manthan Bhadaliya 007!'
+        message: 'Manthan Bhadaliya - Node.js Application with GitHub Actions and Docker',
     });
 });
 
