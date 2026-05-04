@@ -5,7 +5,7 @@ const PORT = process.env.PORT ?? 8080
 
 app.get('/', (req, res) => {
     return res.json({
-        message: 'Node.js application successfully deployed on AWS EC2 using GitHub Actions!'
+        message: 'Manthan Bhadaliya!'
     });
 });
 
